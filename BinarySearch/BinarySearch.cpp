@@ -1,3 +1,27 @@
+/*
+#Algorithm
+#   Step 1 : Declare Tow Variable
+    start=0
+    end=size-1
+    Step 2 : create loop and check start<=end
+    loop(start<=end)
+    {
+        # Calculate Mid od array
+        mid=(start+end)/2
+
+        Check  condition    : if (arr[mid]==key) the return mid //key is value that you can find
+        else if cheack  (arr[mid]<=key)
+        assign start=mid+1
+    else
+        assign End = mid -1;
+
+    }
+    if key not found return -1
+
+``
+#
+#
+*/
 #include <iostream>
 using namespace std;
 
