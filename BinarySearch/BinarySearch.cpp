@@ -3,7 +3,7 @@
 #   Step 1 : Declare Tow Variable
     start=0
     end=size-1
-    Step 2 : create loop and check start<=end
+    Step 2 : create loop and check  start less than equal to end (start<=end)
     loop(start<=end)
     {
         # Calculate Mid od array
